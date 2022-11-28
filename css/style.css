@@ -391,7 +391,7 @@ color: var(--mol-color);
 
 .button .link:hover,
 .button .link:focus{color: var(--focus-color);}
-
+.item{border-bottom: 1px solid #EEEEEE;}
 
 .robotu-link{
     padding: 0;
