@@ -447,7 +447,6 @@ color: var(--mol-color);
     line-height: 1.19px;
     color: var(--mol-color);
     display:block;
-    width: 145px;
     padding-left: 215px;
     padding-top: 60px;
     margin-bottom: 20px;
@@ -458,10 +457,7 @@ color: var(--mol-color);
     line-height: 1.71;
     color: var(--mail-color);
     margin-bottom: 9px;
-
-
 }
-
 .footer {
     line-height: 1.71;
     color:var(--footer-color);
