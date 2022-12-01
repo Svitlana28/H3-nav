@@ -36,7 +36,7 @@ html{
 *::before,
 *::after{box-sizing: inherit;}
 
-* { 
+* {  
      list-style:none;
      box-sizing: border-box;
 }
@@ -59,7 +59,6 @@ img {
 }
 
 .container {
-    outline: 2px solid red;
     width: 1230px;
     margin: 0 auto;
     padding-left: 15px;
@@ -75,6 +74,8 @@ img {
     display: flex;
     align-items: center;
     margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
     
 }
 
@@ -83,8 +84,6 @@ img {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    padding-top: 25px;
-    padding-bottom: 25px;
     display: flex;
     color: var(--mol-color);
 
@@ -92,10 +91,8 @@ img {
 .accent {
     color:var(--accent-color);
 }
-.header {
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
+
+
 
 .heder {
     display: flex;
@@ -103,10 +100,9 @@ img {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: var(--meil-color);
-    margin-left: auto;
+    align-items: center;
 
 }
-
 
 .heder .link.current {
     color: var(--mol-color);
@@ -122,8 +118,6 @@ color: var(--mol-color);
     cursor: pointer;
     margin-left: 93px;
     margin-right: 50px;
-    padding-top: 35px;
-    padding-bottom: 35px;
 
 }
 
@@ -144,24 +138,20 @@ color: var(--mol-color);
 .link:hover
 .link:focus{color:var(--mol-color);}
 
-.portfolio{margin-right: 50px;
-    padding-top: 35px;
-    padding-bottom: 35px;
+.portfolio
+{margin-right: 50px;
+    
 }
 
-.kontaktu
-{   padding-top: 35px;
-    padding-bottom: 35px;
-    margin-right: 344px;}
-
+.kontaktu {
+    margin-right: 344px;
+}
 .tel {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--mel-color);
-    padding-top: 35px;
-    padding-bottom: 35px;
-    
+    margin-left: 50px;
 
 }
 .tel :hover
@@ -172,9 +162,6 @@ color: var(--mol-color);
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--mel-color);
-        margin-right: 50px;
-        padding-top: 35px;
-        padding-bottom: 35px;
     
     }
     .meil:hover
@@ -207,6 +194,8 @@ color: var(--mol-color);
     margin: 0 auto;
 }
 .hero-but {
+    width: 152px;
+    height: 30px;
     background-color:var(--mol-color);
 }
 
@@ -221,19 +210,18 @@ color: var(--mol-color);
     margin: 0 auto;
     text-align: center;
     margin-top: 40px;
-    width: 152px;
-    height: 30px;
     border-radius: 5px;
 }
 .hero-but:active{color:var(--mol-color);
 }
 
 /*--------section detel2--------*/
-
+.section-novpading{ padding-top: 95px;}
 .detel {
     display: flex;
     align-items: center;
     gap: 30px;
+    padding-bottom: 0;
 }
 
 .section-detel {
@@ -255,6 +243,7 @@ color: var(--mol-color);
 
 }
 /*----Sektion diy3----*/
+.section nov{ padding-bottom: 0;}
 
 .diy{display: flex;
     margin: auto;
@@ -282,64 +271,59 @@ color: var(--mol-color);
 /*-----section comanda4-----*/
 .com{background-color: #F5F4FA;;}
 
-.comanda {
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    gap: 30px;}
+
 
 .zag-3{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     color:var(--meil-color);
-    margin-bottom: 50px;
     display: flex;
-    align-items: center;
-    margin:auto;
+    justify-content: center;
     margin-bottom: 50px;
 
 }
-
-.section-comanda{
-    display:flex;
+.section-comanda {
+    display: flex;
     margin: 0 auto;
     align-items: center;
-    gap: 30px;
-}
+    gap: 30px;}
 
 .img-comanda{
     display: flex;
     width: 270px;
     height: 260px;
-    margin: auto;
     gap: 30px;
     flex-basis: calc(100%/4-30px);
 }
 
 .section-comandaimg {
     display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
     font-weight: 500;
     line-height: 1.18;
     font-size: 16px;
     color: var(--meil-color);
-    
-    padding-left:70px;
-    margin-top: 30px;
-    margin-bottom: 10px;
 }
 
-.section-comandaprof {
+.section-comandaprof {display: flex;
+    justify-content: center;
     font-weight: 500;
     font-size: 16px;
     line-height:1.18;
-    text-align: center;
     color:var(--mel-color);
 
 }
+.komanda {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 
 /*-------portfolio----*/
 
+.header{border-bottom: 1px solid  rgba(236, 236, 236, 1);}
 
 .visually-hidden
 {   position: absolute;
@@ -361,6 +345,10 @@ color: var(--mol-color);
     margin: 0 auto;
     margin-bottom: 20px; 
     gap: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
 }
 
 .button-aktiv {
@@ -368,6 +356,8 @@ color: var(--mol-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    width:68px;
+    height: 26px;
     text-align: center;
     color:var(--mail-color);
     cursor: pointer;
@@ -386,12 +376,14 @@ color: var(--mol-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    min-width:68px;
+    height: 26px;
     text-align: center;
     cursor: pointer;}
 
 .button .link:hover,
 .button .link:focus{color: var(--focus-color);}
-.item{border-bottom: 1px solid #EEEEEE;}
+
 
 .robotu-link{
     padding: 0;
@@ -412,7 +404,11 @@ color: var(--mol-color);
     padding:215px;
     top: 262px;}
 
-.element-robotu{padding: 24px;}
+.element-robotu{padding: 24px;
+border:1px solid rgba(236, 236, 236, 1);
+}
+
+
 
 .robotu-neim {
     font-weight: 700;
@@ -420,7 +416,6 @@ color: var(--mol-color);
     line-height: 2;
     letter-spacing: 0.06em;
     color:var(--meil-color);
-    margin-top: 20px;
 }
 .robotu-proekt {
     font-size: 16px;
@@ -444,27 +439,25 @@ color: var(--mol-color);
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19px;
+    line-height: 1.19;
     color: var(--mol-color);
     display:block;
-    padding-left: 215px;
-    padding-top: 60px;
     margin-bottom: 20px;
+    padding-top: 60px;
     
     }
-
 .footer-maps {
     line-height: 1.71;
+    display: block;
     color: var(--mail-color);
     margin-bottom: 9px;
 }
 .footer {
-    line-height: 1.71;
-    color:var(--footer-color);
-    background-color: var(--becgraud-color)
-    }
+color: var(--footer-color);
+background-color: var(--becgraud-color);}
 
-.adress{
-    padding-left: 215px;
-    padding-bottom: 50px;
-}
+.adress{padding-bottom: 60px;}
+
+.footer
+{display: block;
+margin-bottom: 9px;}
