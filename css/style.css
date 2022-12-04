@@ -341,9 +341,8 @@ color: var(--mol-color);
 
 .button {
     display: flex;
-    align-items: center;
-    margin: 0 auto;
-    margin-bottom: 20px; 
+    justify-content: center;
+    margin-bottom: 50px; 
     gap: 8px;
 }
 
@@ -352,7 +351,7 @@ color: var(--mol-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-padding-top: 6px;
+    padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 22px;
     padding-right: 22px;
@@ -459,10 +458,13 @@ padding-top: 6px;
     line-height: 1.71;
     display: block;
     color: var(--mail-color);
-    margin-bottom: 9px;
 }
-.tol {display: block;
+.tol {
+    line-height:1.14;
     color: var(--mail-color);
-    margin-bottom: 9px;
 }
-.mol{color: var(--mail-color);}
+.mal{line-height: 1.14;
+    color: var(--mail-color);}
+
+.mol:nth-child(2){margin-bottom: 9px;}
+.mol:first-child{margin-bottom: 9px;}
